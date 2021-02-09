@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-sea-green.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="splide">
+
+        <div class="hero-heading-main">
+            <h1>Live Blogger</h1>
+        </div>
+
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="img/slide-img1.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-img2.jpg" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src="img/slide-img3.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+
+    <script>
+        new Splide( '.splide', {
+            type  : 'fade',
+            rewind: true,
+        } ).mount();
+    </script>
+
+</body>
+</html>
